@@ -1,0 +1,14 @@
+.myNavbar{
+    background-color: #82CAFA;
+    hover:gray;
+
+}
+.divClr{
+    background-color: #D1D0CE;
+    
+}
+.btnClr{
+    height: 50px;
+    width: 100px;
+    background-color: #D1D0CE;
+}

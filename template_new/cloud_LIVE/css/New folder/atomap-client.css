@@ -1,0 +1,59 @@
+#top-head {
+	width:100%;
+    min-height: 340px;
+    background: url("../images/about-bg.jpg") no-repeat scroll center top / 100% auto;
+    background-size: cover;
+	margin-top: 105px;
+}
+
+#top-head {
+    min-height: 50px;
+}
+.thumb-hover{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 0;
+}
+
+.thumb-hover .thumb_content {
+    position: absolute;
+    color: #fff;
+    top: 0px;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    min-height: 190px;
+    width: 100%;
+    transition: .4s;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition-timing-function: .4s;
+    opacity: 0;
+}
+.btn-read {
+    padding: 10px 39px;
+    border-radius: 0;
+    vertical-align: middle;
+    position: absolute;
+    top: 70px;
+    left: 55px;
+    background-color: #004d8f;
+	color:#fff;
+}
+a.btn-read {
+	color:#fff;
+}
+.thumb-hover:hover .thumb_content {
+    opacity: 1;
+}
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+@media only screen and (min-width:320px) and (max-width: 480px)  {
+	.no-bg{
+	margin-top:30px;
+	font-size:12px;
+}
+}

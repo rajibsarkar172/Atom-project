@@ -1,0 +1,17 @@
+#top-head {
+	width:100%;
+    min-height: 340px;
+    background: url("../images/about-bg.jpg") no-repeat scroll center top / 100% auto;
+    background-size: cover;
+	margin-top: 105px;
+}
+@media only screen and (min-width:320px) and (max-width: 480px)  {
+	.no-bg{
+	margin-top:30px;
+	font-size:12px;
+}
+#top-head {
+    min-height: 50px;
+}
+
+}
